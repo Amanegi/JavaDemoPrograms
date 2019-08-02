@@ -1,0 +1,19 @@
+package extra;
+
+public class StringBufferDemo {
+
+	public static void main(String[] args) {
+
+		StringBuffer sbuild = new StringBuffer("Hello ");
+		sbuild.append("JAVA ");
+		System.out.println(sbuild);
+		sbuild.append("ANDROID");
+		System.out.println(sbuild);
+		// System.out.println(sbuild.reverse());
+		System.out.println(sbuild.delete(5, 10));
+		System.out.println(sbuild.insert(5, " IOS"));
+		System.out.println(sbuild.replace(5, 9, " JAVA"));
+
+	}
+
+}
